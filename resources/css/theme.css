@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+    background: linear-gradient(hsl(243, 100%, 20%), hsl(243, 86%, 60%));
+    height: 830px;
+    width: 45%;
+    background-size: cover;
+    background-size: 120%;
+    float: left;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.left img {
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 120px;
+    position: fixed;
+}
+
+.right {
+    background-color: white;
+    width: 55%;
+    float: right;
+    height: 700px;
+    padding: 70px;
+}
+
+.hleft {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.hleft img {
+    width: 40%;
+}
+
+.hright {
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.hright span {
+    float: right;
+    padding: 0 15px;
+}
+
+.hright a {
+    color: #222;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+.hright .t:hover {
+    color: rgb(47, 192, 202);
+}
+
+.hright .f:hover {
+    color: rgb(54, 54, 190);
+}
+
+.hright .e:hover {
+    color: rgb(196, 36, 36);
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    float: left;
+}
+
+section h1 {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    color: hsl(243, 100%, 12%);
+}
+
+section p {
+    font-size: 15px;
+    padding: 40px 0;
+    padding-bottom: 50px;
+    font-weight: 400;
+    color: #333;
+}
+
+section h3 {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    color: hsl(243, 100%, 12%);
+}
+
+section input {
+    padding: 20px 30px;
+    width: 70%;
+    border: none;
+    box-shadow: 5px 10px 20px -10px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    outline: none;
+}
+
+section button {
+    padding: 20px 30px;
+    width: 28%;
+    border: none;
+    box-shadow: 7px 7px 7px -10px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: hsl(163, 95%, 43%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+section button:hover {
+    background-color: hsl(163, 84%, 29%);
+}
+
+footer {
+    float: left;
+    width: 100%;
+    padding: 70px 0;
+    padding-top: 120px;
+}
+
+footer p {
+    float: right;
+}
+
+footer a {
+    font-size: 11px;
+}
